@@ -1,2 +1,7 @@
 # python-configparser-test
-python::configparser 功能测试
+python::configparser functional testing
+
+## Run the test
+```
+python ./main.py
+```
