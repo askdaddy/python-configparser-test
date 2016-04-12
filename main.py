@@ -15,3 +15,6 @@ if __name__ == '__main__':
     print conf.get('database', 'server'), conf.get('database', 'port')
     # partial extend
     print conf.get('service', 'url'), conf.get('service', 'port')
+
+    print 'use `:` in section name'
+    print conf.get('parent:child', 'txt')
